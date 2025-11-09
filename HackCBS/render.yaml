@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: querychain-ai
+    env: node
+    buildCommand: npm install && cd frontend && npm install --include=dev && npm run build && cd ..
+    startCommand: node ai_agent_backend.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: MONGODB_URI
+        sync: false

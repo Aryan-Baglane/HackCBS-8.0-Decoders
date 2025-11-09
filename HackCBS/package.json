@@ -1,0 +1,33 @@
+{
+  "name": "querychain-backend",
+  "version": "1.0.0",
+  "description": "Gemini AI Orchestrator for QueryChain",
+  "main": "gemini_backend.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "start": "node gemini_backend.js",
+    "dev": "node --watch gemini_backend.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.20.0",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": [
+    "ai",
+    "gemini",
+    "mongodb",
+    "natural-language",
+    "nlp",
+    "query",
+    "rag",
+    "vector-search"
+  ],
+  "author": "QueryChain Team",
+  "license": "MIT"
+}

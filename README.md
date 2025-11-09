@@ -17,6 +17,9 @@ This document provides an overview, architecture, project flow, and step-by-step
 
 ---
 
+## Link of the PowerPoint Presentation
+https://www.canva.com/design/DAG4LfzMmZ8/LOxoiP9uI-6lw7QjXTmj9g/edit?utm_content=DAG4LfzMmZ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ## About the Project
 
 HackCBS-8.0-Decoders is a collaborative solution built for the HackCBS 8.0 Hackathon.  

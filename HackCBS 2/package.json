@@ -1,0 +1,17 @@
+{
+  "name": "placement-rag-backend",
+  "version": "1.0.0",
+  "description": "RAG backend for placement data",
+  "main": "placement_backend.js",
+  "type": "module",
+  "scripts": {
+    "start": "node placement_backend.js",
+    "dev": "node --watch placement_backend.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "node-fetch": "^3.3.2"
+  }
+}
